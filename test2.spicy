@@ -1,0 +1,20 @@
+fun add(x, y) {
+  print x + y
+}
+
+let a = 3
+let b = 4
+print add(a, b)
+
+if true {
+  print "This is true"
+} elseif false {
+  print "This won't run"
+} else {
+  print "Fallback"
+}
+
+for i in 0..2 {
+  print i
+}
+
